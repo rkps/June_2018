@@ -1,6 +1,6 @@
 open(FILE, "<format.dat");
 @lines = <FILE>;
-close(FILE);
+ close(FILE);
 
 foreach (@lines) {
     chop;
